@@ -324,7 +324,7 @@ main { position: relative; z-index: 3; }
 }
 
 @media (min-width: 900px) {
-  .stats { grid-template-columns: repeat(3, 1fr); }
+  .stats { grid-template-columns: repeat(4, 1fr); }
 }
 
 .stat {

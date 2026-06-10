@@ -107,8 +107,12 @@
           <span class="stat__label mono">recurring costs eliminated</span>
         </li>
         <li class="stat">
-          <span class="stat__num" data-count="15" data-suffix="">0</span>
-          <span class="stat__label mono">locations running my software</span>
+          <span class="stat__num" data-count="550" data-suffix="">0</span>
+          <span class="stat__label mono">appointments/day through my software</span>
+        </li>
+        <li class="stat">
+          <span class="stat__num" data-count="350" data-suffix="">0</span>
+          <span class="stat__label mono">staff using my tools daily</span>
         </li>
       </ul>
     </section>
@@ -133,10 +137,12 @@
                 designed from the hardware up: Raspberry Pi 5, a purpose-built
                 Linux image, and a native UI rewritten in C with Raylib for
                 instant responsiveness. Over-the-air updates patch every booth
-                at once; remote health checks tell hardware failures apart from
-                software and network ones in minutes, not site visits.
+                at once, and a Prometheus–Grafana–Loki stack over a Tailscale
+                mesh watches each kiosk — camera status, photo counts, thermal
+                limits, even SD-card wear prediction — so failures are
+                diagnosed in minutes, not site visits.
               </p>
-              <p class="project__tags mono">Raspberry Pi 5 · Custom Linux · C / Raylib · Docker · VNC · XState</p>
+              <p class="project__tags mono">Raspberry Pi 5 · Custom Linux · C / Raylib · Ansible · Prometheus / Grafana / Loki · Tailscale</p>
             </div>
           </div>
         </li>
