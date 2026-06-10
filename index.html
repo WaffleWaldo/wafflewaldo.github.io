@@ -4,10 +4,13 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Oswaldo Ortiz — Senior Software Engineer</title>
-  <meta name="description" content="Oswaldo Ortiz is a senior software engineer in New York City building embedded kiosk fleets, HIPAA-grade data platforms, and production AI agents." />
+  <meta name="description" content="Oswaldo Ortiz is a senior software engineer in New York City building embedded kiosk fleets, HIPAA-compliant data platforms, and production AI agents." />
   <meta property="og:title" content="Oswaldo Ortiz — Senior Software Engineer" />
   <meta property="og:description" content="Systems that survive the real world — embedded hardware, healthcare data platforms, and applied AI in production." />
   <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://wafflewaldo.github.io/" />
+  <meta property="og:image" content="https://wafflewaldo.github.io/assets/og.png" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="theme-color" content="#0b0b0f" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b0b0f'/%3E%3Ctext x='32' y='44' font-family='-apple-system,sans-serif' font-size='34' font-weight='700' fill='%23ffa776' text-anchor='middle'%3EO.%3C/text%3E%3C/svg%3E" />
 
@@ -55,8 +58,8 @@
       </h1>
       <div class="hero__bottom" data-hero-fade>
         <p class="hero__sub">
-          From embedded kiosks on studio floors to HIPAA-grade data platforms
-          and AI agents in production — owned end to end, in New York City.
+          From embedded kiosks on clinic floors to HIPAA-compliant data
+          platforms and AI agents in production — owned end to end.
         </p>
         <div class="hero__scroll mono">
           <span>Scroll</span>
@@ -83,14 +86,10 @@
       <div class="section__label mono" data-reveal>01 — About</div>
       <div class="about__body">
         <p class="about__text" data-split>
-          I'm a senior software engineer who owns the whole stack — literally.
-          At a HIPAA-regulated med-spa group in New York, I ship the software
-          behind the business: photo kiosks designed down to the OS image,
-          prescription-fulfillment and inventory platforms that replaced
-          six-figure vendors, and AI agents answering support questions around
-          the clock. I also run IT — so I live with everything I ship — and
-          bring the same end-to-end approach to contract engineering for
-          private practices.
+          I'm a senior software engineer at a HIPAA-regulated med-spa group in
+          New York, building the software the business runs on. Because I also
+          run IT, I live with everything I ship — so durability isn't a
+          slogan, it's self-preservation.
         </p>
         <p class="about__text about__text--muted" data-split>
           I care about graceful degradation, observable behavior, and the kind
@@ -109,11 +108,7 @@
         </li>
         <li class="stat">
           <span class="stat__num" data-count="15" data-suffix="">0</span>
-          <span class="stat__label mono">studio locations supported</span>
-        </li>
-        <li class="stat">
-          <span class="stat__num" data-count="40" data-suffix="+">0</span>
-          <span class="stat__label mono">repositories maintained</span>
+          <span class="stat__label mono">locations running my software</span>
         </li>
       </ul>
     </section>
@@ -161,7 +156,8 @@
                 sub-agents for RAG distillation, response validation, and
                 ticket enrichment, grounded in a pgvector knowledge base — with
                 a human-in-the-loop approval gate and per-feature flags so any
-                piece can degrade gracefully on its own.
+                piece can degrade gracefully on its own. It superseded the
+                Slack ticketing system I'd built the year before.
               </p>
               <p class="project__tags mono">Python · Claude on Vertex AI · pgvector RAG · Cloud Run · Slack Bolt</p>
             </div>
@@ -232,73 +228,19 @@
           </div>
         </li>
 
-        <li class="project" data-reveal>
-          <button class="project__head" aria-expanded="false">
-            <span class="project__index mono">06</span>
-            <span class="project__title">WaldoBot Ticketing</span>
-            <span class="project__role mono">Internal Tools · Automation</span>
-            <span class="project__toggle" aria-hidden="true">+</span>
-          </button>
-          <div class="project__body">
-            <div class="project__body-inner">
-              <p>
-                Slack-based IT ticketing for 15 studios: modal intake, type and
-                location-aware email routing, Notion as the system of record,
-                and emoji-reaction SLA tracking that measures response and
-                resolution time without anyone filling out a form twice.
-              </p>
-              <p class="project__tags mono">Python · Slack SDK · Notion API · Gmail API · Cloud Functions</p>
-            </div>
-          </div>
-        </li>
-
       </ul>
-    </section>
-
-    <!-- ============ CAPABILITIES ============ -->
-    <section class="section caps">
-      <div class="section__label mono" data-reveal>03 — Capabilities</div>
-      <div class="caps__grid">
-        <div class="caps__col" data-reveal>
-          <h3 class="caps__title">Platform <em>&amp;</em> Infra</h3>
-          <ul class="caps__list mono">
-            <li>Google Cloud — Run, Functions, Vertex AI</li>
-            <li>Supabase / Postgres / Firebase</li>
-            <li>Event-driven pipelines — NATS JetStream</li>
-            <li>Docker, custom Linux images</li>
-            <li>Observability &amp; fleet health checks</li>
-          </ul>
-        </div>
-        <div class="caps__col" data-reveal>
-          <h3 class="caps__title">Product <em>Engineering</em></h3>
-          <ul class="caps__list mono">
-            <li>SvelteKit · TypeScript · Tailwind</li>
-            <li>XState state machines</li>
-            <li>Real-time UX on live clinic floors</li>
-            <li>HIPAA-grade auth, RLS &amp; PHI handling</li>
-            <li>Internal tools people actually use</li>
-          </ul>
-        </div>
-        <div class="caps__col" data-reveal>
-          <h3 class="caps__title">Applied <em>AI</em></h3>
-          <ul class="caps__list mono">
-            <li>Multi-agent Claude systems</li>
-            <li>RAG with pgvector embeddings</li>
-            <li>Human-in-the-loop workflows</li>
-            <li>Graceful degradation by design</li>
-            <li>Embedded: Raspberry Pi, C / Raylib</li>
-          </ul>
-        </div>
-      </div>
     </section>
 
     <!-- ============ CONTACT ============ -->
     <section class="section contact" id="contact">
-      <div class="section__label mono" data-reveal>04 — Contact</div>
+      <div class="section__label mono" data-reveal>03 — Contact</div>
       <h2 class="contact__title">
         <span class="hero__line"><span class="line-inner">Let's build</span></span>
         <span class="hero__line"><span class="line-inner">something <em>durable</em><span class="accent">.</span></span></span>
       </h2>
+      <p class="contact__avail mono" data-reveal>
+        <span class="accent">●</span> Open to contract engineering work
+      </p>
       <div class="contact__links" data-reveal>
         <a class="contact__email" href="mailto:oswaldoortiz0519@gmail.com" data-magnetic>
           oswaldoortiz0519@gmail.com
