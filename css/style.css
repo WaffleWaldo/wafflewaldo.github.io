@@ -497,11 +497,17 @@ main { position: relative; z-index: 3; }
   margin-bottom: clamp(2rem, 6vh, 3.5rem);
 }
 
+.contact__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  align-items: center;
+}
+
 .contact__email {
   display: inline-flex;
   align-items: center;
   gap: 0.8rem;
-  align-self: flex-start;
   font-family: var(--font-mono);
   font-size: clamp(0.9rem, 2.2vw, 1.3rem);
   letter-spacing: 0.04em;
